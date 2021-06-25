@@ -54,10 +54,6 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						cmVhciBib3R0b20gcmlnaHQA
-						</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -69,10 +65,6 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						cmVhciBib3R0b20gbGVmdAA=
-						</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -84,10 +76,6 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						cmVhciB0b3AgcmlnaHQA
-						</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -99,10 +87,6 @@
 					</dict>
 					<key>HS04</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						cmVhciB0b3AgbGVmdAA=
-						</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -114,10 +98,6 @@
 					</dict>
 					<key>HS05</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						ZnJvbnQgbGVmdAA=
-						</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -127,29 +107,10 @@
 						BQAAAA==
 						</data>
 					</dict>
-					<key>HS07</key>
-					<dict>
-						<key>Comment</key>
-						<data>
-						ZnJvbnQgbWlkZGxlAA==
-						</data>
-						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>HS07</string>
-						<key>port</key>
-						<data>
-						BwAAAA==
-						</data>
-					</dict>
 					<key>HS08</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						ZnJvbnQgcmlnaHQA
-						</data>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS08</string>
 						<key>port</key>
@@ -159,10 +120,6 @@
 					</dict>
 					<key>HS09</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						a2IvbW91c2UA
-						</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -174,10 +131,6 @@
 					</dict>
 					<key>HS10</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						a2IvbW91c2UA
-						</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -189,12 +142,8 @@
 					</dict>
 					<key>HS11</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						QXN1cyBsZWQgY29udHJvbGxlcgA=
-						</data>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS11</string>
 						<key>port</key>
@@ -202,27 +151,8 @@
 						CwAAAA==
 						</data>
 					</dict>
-					<key>HS12</key>
-					<dict>
-						<key>Comment</key>
-						<data>
-						Ymx1ZXRvb3RoAA==
-						</data>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS12</string>
-						<key>port</key>
-						<data>
-						DAAAAA==
-						</data>
-					</dict>
 					<key>SS01</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						cmVhciBib3R0b20gcmlnaHQA
-						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -234,10 +164,6 @@
 					</dict>
 					<key>SS02</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						cmVhciBib3R0b20gbGVmdAA=
-						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -249,10 +175,6 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						cmVhciB0b3AgcmlnaHQA
-						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -264,10 +186,6 @@
 					</dict>
 					<key>SS04</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						cmVhciB0b3AgbGVmdAA=
-						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -279,10 +197,6 @@
 					</dict>
 					<key>SS05</key>
 					<dict>
-						<key>Comment</key>
-						<data>
-						ZnJvbnQgbGVmdAA=
-						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
