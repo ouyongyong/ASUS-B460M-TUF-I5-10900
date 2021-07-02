@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.0 Copyright © 2018 Headsoft. All rights reserved.</string>
+	<string>1.0 Copyright © 2018-2020 Headsoft. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.Headsoft.USBPorts</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -22,14 +22,20 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>iMac19,1</key>
+		<key>iMac20,2-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
-			<string>AppleUSBHostMergeProperties</string>
+			<string>AppleUSBMergeNub</string>
+			<key>IONameMatch</key>
+			<string>XHC</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0xa3af8086</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
 			<key>IOProviderClass</key>
-			<string>AppleBusPowerController</string>
+			<string>AppleUSBXHCISPT</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>kUSBSleepPortCurrentLimit</key>
@@ -40,30 +46,14 @@
 				<integer>2100</integer>
 				<key>kUSBWakePowerSupply</key>
 				<integer>5100</integer>
-			</dict>
-			<key>model</key>
-			<string>iMac19,1</string>
-		</dict>
-		<key>iMac19,1-XHC</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBMergeNub</string>
-			<key>IOClass</key>
-			<string>AppleUSBMergeNub</string>
-			<key>IONameMatch</key>
-			<string>XHC</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
-			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
-			<key>IOProviderMergeProperties</key>
-			<dict>
 				<key>port-count</key>
-				<data>CwAAAA==</data>
+				<data>FQAAAA==</data>
 				<key>ports</key>
 				<dict>
 					<key>HS01</key>
 					<dict>
+						<key>Comment</key>
+						<data>cmVhciBib3R0b20gcmlnaHQA</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -73,6 +63,8 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>Comment</key>
+						<data>cmVhciBib3R0b20gbGVmdAA=</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -82,6 +74,8 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
+						<key>Comment</key>
+						<data>cmVhciB0b3AgcmlnaHQA</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -91,6 +85,8 @@
 					</dict>
 					<key>HS04</key>
 					<dict>
+						<key>Comment</key>
+						<data>cmVhciB0b3AgbGVmdAA=</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -100,6 +96,8 @@
 					</dict>
 					<key>HS05</key>
 					<dict>
+						<key>Comment</key>
+						<data>ZnJvbnQgbGVmdAA=</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -107,17 +105,10 @@
 						<key>port</key>
 						<data>BQAAAA==</data>
 					</dict>
-					<key>HS06</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>HS06</string>
-						<key>port</key>
-						<data>BgAAAA==</data>
-					</dict>
 					<key>HS09</key>
 					<dict>
+						<key>Comment</key>
+						<data>a2IvbW91c2UA</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -127,6 +118,8 @@
 					</dict>
 					<key>HS10</key>
 					<dict>
+						<key>Comment</key>
+						<data>a2IvbW91c2UA</data>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -136,6 +129,8 @@
 					</dict>
 					<key>HS11</key>
 					<dict>
+						<key>Comment</key>
+						<data>QXN1cyBsZWQgY29udHJvbGxlcgA=</data>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
@@ -143,10 +138,65 @@
 						<key>port</key>
 						<data>CwAAAA==</data>
 					</dict>
+					<key>HS12</key>
+					<dict>
+						<key>Comment</key>
+						<data>Ymx1ZXRvb3RoAA==</data>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS12</string>
+						<key>port</key>
+						<data>DAAAAA==</data>
+					</dict>
+					<key>SS01</key>
+					<dict>
+						<key>Comment</key>
+						<data>cmVhciBib3R0b20gcmlnaHQA</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>SS01</string>
+						<key>port</key>
+						<data>EQAAAA==</data>
+					</dict>
+					<key>SS02</key>
+					<dict>
+						<key>Comment</key>
+						<data>cmVhciBib3R0b20gbGVmdAA=</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>SS02</string>
+						<key>port</key>
+						<data>EgAAAA==</data>
+					</dict>
+					<key>SS03</key>
+					<dict>
+						<key>Comment</key>
+						<data>cmVhciB0b3AgcmlnaHQA</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>SS03</string>
+						<key>port</key>
+						<data>EwAAAA==</data>
+					</dict>
+					<key>SS04</key>
+					<dict>
+						<key>Comment</key>
+						<data>cmVhciB0b3AgbGVmdAA=</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>SS04</string>
+						<key>port</key>
+						<data>FAAAAA==</data>
+					</dict>
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMac19,1</string>
+			<string>iMac20,2</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
